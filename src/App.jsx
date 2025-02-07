@@ -1,3 +1,6 @@
+//Added a comment to test merge conflict.
+
+
 import { useState , useRef , useEffect } from 'react'
 import "./App.css";
 import AddTask from './Components/addTask';

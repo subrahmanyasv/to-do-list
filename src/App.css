@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.darkMode{
+    background-color: #131314;
+    color: #ffffff;
+}
+
+.lightMode{
+    background-color: #ece9e9;
+    color: #000000;
+}
+
+.MainDiv{
+    width: 100vw;
+    min-width: 100vw;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.tasksDivision{
+    height: 100%;
+    width: calc(100vw - 10vh);
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 5vh ;
+}

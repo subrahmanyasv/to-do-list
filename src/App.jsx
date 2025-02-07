@@ -1,4 +1,7 @@
+
+//Added a comment to test merge conflict.(Changed in local branch)
 //Added a comment to test merge conflict.(Changed in remote repo. Not available in local)
+
 
 
 import { useState , useRef , useEffect } from 'react'

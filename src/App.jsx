@@ -50,15 +50,6 @@ function App() {
         <TaskList selectedTasks={ selectedTasks } setTasks = { setTasks } />  
       </div>
     </div>
-    {/* <div className='row m-0 px-0 px-sm-5 mh-100 tasksDivision'>
-      <div className='col-12 col-md-6 col-lg-4 gx-5  mh-100 d-flex justify-content-center align-items-center flex-column'>
-        <AddTask date={ selectedDate } tasks={ tasks } setTasks={ setTasks } />
-        <Calender  selectedDate={ selectedDate } setSelectedDate={ setSelectedDate }/>
-      </div>
-      <div className='col-12 col-md-6 col-lg-8 gx-5 mh-100 py-5 py-md-0 bg-light border rounded'>
-        <TaskList selectedTasks={ selectedTasks } setTasks = { setTasks } />  
-      </div>
-    </div> */}
   </div>
  )
 }

@@ -1,6 +1,6 @@
 //This component is used to add a task to the Tasks state of the app component. It takes the "tasks" variable and "setTasks" method as input and returns the div with input bar and a add button.
 
-import { useEffect, useRef, useState } from "react"
+import { useState } from "react"
 import Modal from "./Modal";
 
 export default function AddTask({ date, tasks, setTasks }) {

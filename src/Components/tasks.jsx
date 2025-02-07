@@ -10,8 +10,6 @@ export default function Task({ task , setTasks}){
         setTasks(prevTasks =>{
             console.log(prevTasks)
             const updatedTasks = prevTasks.filter((t)=> t.id !== task.id)
-            // console.log("Updated task: ")
-            // console.log(updatedTasks)
             return [...updatedTasks , {...task , status: "completed"}]
         })
     }
